@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/leftmaindivstyle.css">
+    <link rel="stylesheet" href="css/rightmaindivstyle.css">
+    <link rel="stylesheet" href="css/menubar.css">
+    <link rel="stylesheet" href="css/submenu.css">
+</head>
+
+<body>
+    <div style="display: flex;width: 100%; height: 100vh;">
+        <div id="leftmaindiv">
+
+            <!-- <div id="colorchooserdiv">
+                <div style="width: max-content;height: max-content; margin: 0 auto;">choose color scheme</div>
+                <div style="width: max-content;  vertical-align: middle;margin: 2px auto;">
+                    <input type="button" class="colorbtns" id="purplebtn" style="background-color: #341d54;">
+                    <input type="button" class="colorbtns" id="greenbtn" style="background-color: #5e6938;">
+                    <input type="button" class="colorbtns" id="bluebtn" style="background-color: rgb(31, 110, 219);">
+                </div>
+            </div> -->
+
+            <div id="profilepicdiv">
+                <img src="img/profilepic.jpg" alt="" id="profilepic">
+            </div>
+
+
+
+            <div id="personalsection">
+                <div class="radioimagepersonaldetail"><img src="img/phone.png" alt=""> +91 8917637038</div>
+                <div class="radioimagepersonaldetail"><img src="img/email.png" alt="">
+                    satyanarayanasatapathy65@gmail.com</div>
+                <div class="radioimagepersonaldetail"><img src="img/github.png" alt=""><a
+                        href="https://github.com/satya5570?tab=repositories"> github</a></div>
+                <div class="radioimagepersonaldetail"><img src="img/linkedin.png" alt=""> linked in</div>
+                <div class="radioimagepersonaldetail"><img src="img/place.png" alt=""> Sastri Nagar-1, Berhampur,
+                    Ganjam, Odisha, 760001</div>
+
+            </div>
+
+        </div>
+
+        <!-- ----------------------------------------------------------------------------------- -->
+
+        <div id="rightmaindiv">
+            <div id="header1">
+
+                <div id="welcomediv"></div>
+
+                <div id="datetimediv">
+                    <div id="datediv" class="datetimeclassdiv"></div>
+                    <div id="timediv" class="datetimeclassdiv"></div>
+                </div>
+
+
+            </div>
+            <div id="header2">
+                Satyanarayana Satapathy
+
+            </div>
+
+            <div id="header3">
+                <div id="menubar">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+
+                        <a href="skills.html" target="targetdiv1">
+                            <li>Skills</li>
+                        </a>
+
+                        <a href="projects.html" target="targetdiv1">
+                            <li>Projects</li>
+                        </a>
+
+                        <a href="#">
+                            <li>Resume
+                                <div class="submenu-1">
+                                    <ul>
+                                        <li><a href="resumes/resume1.pdf" target="_blank">Download Resume</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </a>
+
+                        <a href="about.html" target="targetdiv1">
+                            <li>About me</li>
+                        </a>
+
+                        <a href="contact.html" target="targetdiv1">
+                            <li>Contact</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+
+            <iframe id="targetdiv" name="targetdiv1" src="homecontent.html"></iframe>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+<script src="js/datetime.js"></script>
+<script src="js/namedesign.js"></script>
+<!-- <script src="js/menuopen.js"></script> -->
+
+</html>
